@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
+  <title> Portfolio </title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <!-- class="container" for bootstrap design -->
+  <div class="container">
+    <div class="row">
+      <!--img-logo-->
+      <div class="col-md-6"> <img class="title-logo img-responsive" src="http://placehold.it/100x100" alt="logo"> </div>
+      <!--header-->
+      <div class="col-md-6 text-right text-uppercase">
+        <h1 class="title-super text-thin">Nolan Singroy</h1>
+        <h4>Full Stack Ninja</h4> </div>
+      <!--horizontal line break-->
+      <div class="row">
+        <div class="col-md-12">
+          <hr> </div>
+      </div>
+      <!--Main Img-Content-->
+      <div class="row">
+        <div class="col-md-12"> <img class="img-responsive banner-img" src="img/main.jpg" alt="main Image"> </div>
+      </div>
+      <!--Featured Project Header-->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2> </div>
+      </div>
+      <!--Project Tiles-->
+      <div class="row text-center">
+        <div class="col-md-4"> <img class="img-responsive center-block" src="img/octo.png" data-toggle="modal" data-target="#project1" alt="Octo-Image">
+          <h3 class="text-uppercase">Art Of Perception</h3>
+          <p><a href="https://github.com/nolansingroy/Movie_Website" target="_blank">Link to project</a> </p>
+        </div>
+        <div class="col-md-4"> <img class="img-responsive center-block" src="img/flask.png" alt="Flask-Image">
+          <h3 class="text-uppercase">Item Catalog</h3>
+          <p><a href="http://github.com" target="_blank">Link to project</a> </p>
+        </div>
+        <div class="col-md-4"> <img class="img-responsive center-block" src="img/metal.png" alt="metal image">
+          <h3 class="text-uppercase">Log Anaylsis</h3>
+          <p><a href="http://github.com" target="_blank">Link to project</a> </p>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Art Of Perception</h4> </div>
+          <div class="modal-body"> <img class="img-responsive" src="img/high-score.png" alt="high-score-image"> This was my first project in this class. Composed of python code to dynamically create a static website. </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
